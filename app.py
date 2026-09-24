@@ -12,7 +12,7 @@ def load_data():
         valid_df = pd.read_sql_query("SELECT * FROM valid_transactions", conn)
         error_df = pd.read_sql_query("SELECT * FROM dq_error_log", conn)
     except Exception as e:
-        st.error(f"Database error: {e}. Please ensure steps 1-3 were executed.")
+        st.error(f"Database error: {e}. Please ensure preavious steps were executed.")
         valid_df = pd.DataFrame()
         error_df = pd.DataFrame()
     finally:

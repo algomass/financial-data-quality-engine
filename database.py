@@ -46,7 +46,7 @@ def setup_and_load_db(
 
 def main():
     try:
-        # Load the intermediate CSV files generated in STEP 2
+        # Load the intermediate CSV files generated 
         print("Reading intermediate CSV files...")
         valid_df = pd.read_csv('valid_transactions.csv')
         error_df = pd.read_csv('dq_error_log.csv')
