@@ -7,7 +7,7 @@ Questo è un progetto portfolio di Data Engineering che simula una pipeline comp
 Non c'è bisogno di alcun hosting o server complesso. Segui questi semplici passaggi per eseguire l'intera pipeline e visualizzare la Dashboard in locale sul tuo computer.
 
 ### Prerequisiti
-Assicurati di avere [Python 3.8+](https://www.python.org/downloads/) installato sul tuo computer.
+[Python 3.8+](https://www.python.org/downloads/) installato sul tuo computer.
 
 ### 1. Clona il repository
 Apri il terminale (o Prompt dei Comandi/PowerShell) e clona questo progetto:
@@ -58,4 +58,4 @@ Per visualizzare i risultati, avvia l'interfaccia Streamlit:
 ```bash
 streamlit run app.py
 ```
-Si aprirà automaticamente una pagina nel tuo browser (solitamente all'indirizzo `http://localhost:8501`) dove potrai esplorare i dati e le metriche di Data Quality!
+Si aprirà automaticamente una pagina nel tuo browser (solitamente all'indirizzo `http://localhost:8501`) dove potrai esplorare i dati e le metriche di Data Quality.
