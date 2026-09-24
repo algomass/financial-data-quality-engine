@@ -5,8 +5,10 @@ env/
 
 # Database SQLite
 *.db
-*.sqlite
 *.sqlite3
+
+# Documentazione / Regole Agente
+GEMINI.md
 
 # Dati grezzi / file generati
 *.csv
