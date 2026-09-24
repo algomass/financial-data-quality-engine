@@ -1,0 +1,18 @@
+# Ambienti Virtuali
+venv/
+.venv/
+env/
+
+# Database SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Dati grezzi / file generati
+*.csv
+*.xlsx
+
+# Cache e file di sistema di Python
+__pycache__/
+*.pyc
+.DS_Store
